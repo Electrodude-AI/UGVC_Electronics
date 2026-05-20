@@ -1,3 +1,4 @@
 (fp_lib_table
-  (lib (name "EasyEDA_Lib")(type "EasyEDA / JLCEDA Pro")(uri "${KIPRJMOD}/EasyEDA_Lib/EasyEDA_Lib.elibz")(options "")(descr ""))
+	(version 7)
+	(lib (name "UGV_Custom") (type "KiCad") (uri "${KIPRJMOD}/../Footprints/UGV_Custom.pretty") (options "") (descr ""))
 )

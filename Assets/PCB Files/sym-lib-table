@@ -1,3 +1,5 @@
 (sym_lib_table
-  (lib (name "EasyEDA_Lib")(type "EasyEDA (JLCEDA) Pro")(uri "${KIPRJMOD}/EasyEDA_Lib/EasyEDA_Lib.elibz")(options "")(descr ""))
+	(version 7)
+	(lib (name "JST_B2B-XH-A") (type "KiCad") (uri "${KIPRJMOD}/../Symbols/JST_B2B-XH-A.kicad_sym") (options "") (descr ""))
+	(lib (name "XT30PW-M") (type "KiCad") (uri "${KIPRJMOD}/../Symbols/XT30PW-M.kicad_sym") (options "") (descr ""))
 )

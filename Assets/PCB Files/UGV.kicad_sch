@@ -9817,6 +9817,7 @@
 		)
 		(property "Value" "B2B-XH-A"
 			(at 15.494 194.056 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9850,8 +9851,19 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Conn Wire-to-Board Header [X] Pos 2.54mm Straight Thru-Hole - WHITE (5V LMR Out)"
 			(at 24.13 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "B2B-XH-A"
+			(at 24.13 176.53 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9908,7 +9920,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 92.71 128.5748 0)
 			(hide yes)
 			(show_name no)
@@ -10458,7 +10470,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 51.7652 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -10518,7 +10530,7 @@
 		(dnp no)
 		(uuid "17cb0dd4-c6f5-4912-887c-0a28b624452c")
 		(property "Reference" "PWRout1"
-			(at 18.796 97.536 90)
+			(at 19.812 99.06 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10529,6 +10541,7 @@
 		)
 		(property "Value" "XT30PW-M"
 			(at 16.51 98.044 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10537,7 +10550,7 @@
 				)
 			)
 		)
-		(property "Footprint" "XT30PW-M (1):AMASS_XT30PW-M"
+		(property "Footprint" "UGV_Custom:AMASS_XT30PW-M"
 			(at 29.21 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -10668,7 +10681,7 @@
 				(justify bottom)
 			)
 		)
-		(property "MP" "XT30PW-M"
+		(property "MPN" "XT30PW-M"
 			(at 29.21 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -10755,6 +10768,7 @@
 		)
 		(property "Value" "B2B-XH-A"
 			(at 73.914 193.548 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10788,8 +10802,19 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Conn Wire-to-Board Header [X] Pos 2.54mm Straight Thru-Hole - WHITE (5V LMR Out)"
 			(at 81.28 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "B2B-XH-A"
+			(at 81.28 176.53 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11081,7 +11106,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SN74LVC8T245DWR:SOIC127P1030X265-24N"
+		(property "Footprint" "Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm"
 			(at 270.51 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -11229,7 +11254,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SN74LVC8T245DWR:SOIC127P1030X265-24N"
+		(property "Footprint" "Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm"
 			(at 219.71 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -11366,8 +11391,9 @@
 				(justify left)
 			)
 		)
-		(property "Value" "B2B-XH-A"
+		(property "Value" "B2B-XH-A-BK"
 			(at 267.97 138.4299 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11402,6 +11428,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 254 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "B2B-XH-A-BK"
 			(at 254 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -11531,6 +11568,7 @@
 		)
 		(property "Value" "B2B-XH-A"
 			(at 162.56 194.31 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11564,8 +11602,19 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Conn Wire-to-Board Header [X] Pos 2.54mm Straight Thru-Hole - WHITE (5V LMR Out)"
 			(at 154.94 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "B2B-XH-A"
+			(at 154.94 177.8 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11602,7 +11651,7 @@
 		(dnp no)
 		(uuid "333b76ed-14ff-445a-82b5-b3cacc45b41c")
 		(property "Reference" "12Vout1"
-			(at 17.272 25.146 90)
+			(at 19.304 25.146 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11613,6 +11662,7 @@
 		)
 		(property "Value" "XT30PW-M"
 			(at 19.812 25.146 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11621,7 +11671,7 @@
 				)
 			)
 		)
-		(property "Footprint" "XT30PW-M (1):AMASS_XT30PW-M"
+		(property "Footprint" "UGV_Custom:AMASS_XT30PW-M"
 			(at 29.21 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -11752,7 +11802,7 @@
 				(justify bottom)
 			)
 		)
-		(property "MP" "XT30PW-M"
+		(property "MPN" "XT30PW-M"
 			(at 29.21 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -11838,8 +11888,9 @@
 				(justify left)
 			)
 		)
-		(property "Value" "B2B-XH-A"
+		(property "Value" "B2B-XH-A-BK"
 			(at 267.97 118.1099 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11884,6 +11935,17 @@
 				)
 			)
 		)
+		(property "MPN" "B2B-XH-A-BK"
+			(at 254 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "53b9f6cb-af96-43fb-a221-80cdf65d9e40")
 		)
@@ -11909,10 +11971,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3680c4df-1d69-46e0-8fc4-8b3074108c59")
 		(property "Reference" "FB1"
-			(at 93.9292 16.51 90)
+			(at 94.488 19.304 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11923,6 +11984,7 @@
 		)
 		(property "Value" "1k@1k"
 			(at 93.9292 19.05 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11931,7 +11993,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BLM21PG220SN1D:BEADC2012X105N"
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric_Pad1.05x1.20mm_HandSolder"
 			(at 93.98 25.908 90)
 			(hide yes)
 			(show_name no)
@@ -12013,7 +12075,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 107.442 140.97 90)
 			(hide yes)
 			(show_name no)
@@ -12165,6 +12227,7 @@
 		)
 		(property "Value" "B4B-XH-A_LF__SN_"
 			(at 280.67 48.2599 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12174,7 +12237,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "B4B-XH-A_LF__SN_:JST_B4B-XH-A_LF__SN_"
+		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
 			(at 275.59 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -12197,7 +12260,7 @@
 				)
 			)
 		)
-		(property "Description" "Connector Header Through Hole 4 position 0.098 (2.50mm)"
+		(property "Description" "Conn Wire-to-Board Header 4 Pos 2.54mm Straight Thru-Hole (Flysky RC)"
 			(at 275.59 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -12305,7 +12368,7 @@
 				(justify bottom)
 			)
 		)
-		(property "MP" "B4B-XH-A (LF)(SN)"
+		(property "MPN" "B4B-XH-A (LF)(SN)"
 			(at 275.59 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -12855,7 +12918,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 129.2352 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -12878,6 +12941,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 128.27 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "C1210C226K3RACTU"
 			(at 128.27 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -12936,7 +13010,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 235.9152 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -12996,7 +13070,7 @@
 		(dnp no)
 		(uuid "4c409252-bd61-446e-8527-e2ad30e7b672")
 		(property "Reference" "Contactor1"
-			(at 16.764 155.956 90)
+			(at 19.812 156.21 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13007,6 +13081,7 @@
 		)
 		(property "Value" "XT30PW-M"
 			(at 19.304 155.956 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13015,7 +13090,7 @@
 				)
 			)
 		)
-		(property "Footprint" "XT30PW-M (1):AMASS_XT30PW-M"
+		(property "Footprint" "UGV_Custom:AMASS_XT30PW-M"
 			(at 29.21 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -13146,7 +13221,7 @@
 				(justify bottom)
 			)
 		)
-		(property "MP" "XT30PW-M"
+		(property "MPN" "XT30PW-M"
 			(at 29.21 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -13242,7 +13317,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 100.0252 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -13548,6 +13623,7 @@
 		)
 		(property "Value" "XT30PW-M"
 			(at 16.51 65.278 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13556,7 +13632,7 @@
 				)
 			)
 		)
-		(property "Footprint" "XT30PW-M (1):AMASS_XT30PW-M"
+		(property "Footprint" "UGV_Custom:AMASS_XT30PW-M"
 			(at 29.21 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -13687,7 +13763,7 @@
 				(justify bottom)
 			)
 		)
-		(property "MP" "XT30PW-M"
+		(property "MPN" "XT30PW-M"
 			(at 29.21 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -14172,7 +14248,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 49.53 147.0152 0)
 			(hide yes)
 			(show_name no)
@@ -14252,7 +14328,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 62.23 152.908 90)
 			(hide yes)
 			(show_name no)
@@ -14444,6 +14520,17 @@
 				)
 			)
 		)
+		(property "MPN" "C1210C226K3RACTU"
+			(at 120.65 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "ec63f3b0-caa4-48da-8567-8bcd808714b8")
 		)
@@ -14492,7 +14579,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 87.3252 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -14515,6 +14602,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 86.36 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "C1210C226K3RACTU"
 			(at 86.36 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -14644,6 +14742,7 @@
 		)
 		(property "Value" "B2B-XH-A"
 			(at 177.292 187.198 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14677,8 +14776,19 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Conn Wire-to-Board Header [X] Pos 2.54mm Straight Thru-Hole - WHITE (5V LMR Out)"
 			(at 172.72 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "B2B-XH-A"
+			(at 172.72 168.91 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14737,7 +14847,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 98.552 133.35 90)
 			(hide yes)
 			(show_name no)
@@ -14818,7 +14928,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 256.2352 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -14899,7 +15009,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 55.5752 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -14922,6 +15032,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 54.61 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "C1210C226K3RACTU"
 			(at 54.61 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -15126,6 +15247,7 @@
 		)
 		(property "Value" "B4B-XH-A_LF__SN_"
 			(at 280.67 68.5799 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15135,7 +15257,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "B4B-XH-A_LF__SN_:JST_B4B-XH-A_LF__SN_"
+		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
 			(at 275.59 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -15158,7 +15280,7 @@
 				)
 			)
 		)
-		(property "Description" "Connector Header Through Hole 4 position 0.098 (2.50mm)"
+		(property "Description" "Conn Wire-to-Board Header 4 Pos 2.54mm Straight Thru-Hole (Flysky RC)"
 			(at 275.59 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -15266,7 +15388,7 @@
 				(justify bottom)
 			)
 		)
-		(property "MP" "B4B-XH-A (LF)(SN)"
+		(property "MPN" "B4B-XH-A (LF)(SN)"
 			(at 275.59 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -15411,8 +15533,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "780545bc-3c44-474b-9aa8-415538e578b8")
-		(property "Reference" "MD_PWM2"
-			(at 217.932 9.906 90)
+		(property "Reference" "MDDS30_PWM2"
+			(at 215.138 12.446 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15424,6 +15546,7 @@
 		)
 		(property "Value" "B4B-XH-A_LF__SN_"
 			(at 217.932 12.446 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15433,7 +15556,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "B4B-XH-A_LF__SN_:JST_B4B-XH-A_LF__SN_"
+		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
 			(at 220.98 17.78 0)
 			(hide yes)
 			(show_name no)
@@ -15456,7 +15579,7 @@
 				)
 			)
 		)
-		(property "Description" "Connector Header Through Hole 4 position 0.098 (2.50mm)"
+		(property "Description" "Conn Wire-to-Board Header 4 Pos 2.54mm Straight Thru-Hole (MDDS30 Ctrl)"
 			(at 220.98 17.78 0)
 			(hide yes)
 			(show_name no)
@@ -15564,7 +15687,7 @@
 				(justify bottom)
 			)
 		)
-		(property "MP" "B4B-XH-A (LF)(SN)"
+		(property "MPN" "B4B-XH-A (LF)(SN)"
 			(at 220.98 17.78 0)
 			(hide yes)
 			(show_name no)
@@ -15615,7 +15738,7 @@
 		(instances
 			(project "UGV"
 				(path "/07a8edf5-8ac1-4cc3-b758-10bf557c0053"
-					(reference "MD_PWM2")
+					(reference "MDDS30_PWM2")
 					(unit 1)
 				)
 			)
@@ -15645,6 +15768,7 @@
 		)
 		(property "Value" "B2B-XH-A"
 			(at 59.944 193.548 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15678,8 +15802,19 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Conn Wire-to-Board Header [X] Pos 2.54mm Straight Thru-Hole - WHITE (5V LMR Out)"
 			(at 67.31 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "B2B-XH-A"
+			(at 67.31 176.53 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15737,7 +15872,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 107.6452 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -15797,7 +15932,7 @@
 		(dnp no)
 		(uuid "7d37d024-95a4-4164-8c89-e5af444f6010")
 		(property "Reference" "12Vout(C)1"
-			(at 130.81 3.81 90)
+			(at 130.302 6.858 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15809,6 +15944,7 @@
 		)
 		(property "Value" "XT30PW-M"
 			(at 130.81 6.35 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15818,7 +15954,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "XT30PW-M (1):AMASS_XT30PW-M"
+		(property "Footprint" "UGV_Custom:AMASS_XT30PW-M"
 			(at 135.89 16.51 0)
 			(hide yes)
 			(show_name no)
@@ -15949,7 +16085,7 @@
 				(justify bottom)
 			)
 		)
-		(property "MP" "XT30PW-M"
+		(property "MPN" "XT30PW-M"
 			(at 135.89 16.51 0)
 			(hide yes)
 			(show_name no)
@@ -16045,7 +16181,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 246.0752 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -16344,7 +16480,7 @@
 		(dnp no)
 		(uuid "852fa38f-7d8d-4ae1-98a4-6cbac1a64ced")
 		(property "Reference" "Fan3"
-			(at 17.526 132.842 90)
+			(at 19.812 132.08 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16353,8 +16489,9 @@
 				)
 			)
 		)
-		(property "Value" "B2B-XH-A"
+		(property "Value" "B2B-XH-A-R"
 			(at 20.066 132.842 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16375,7 +16512,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "B2B-XH-A"
+		(property "Datasheet" "B2B-XH-A-R"
 			(at 34.29 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -16387,8 +16524,19 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Conn Wire-to-Board Header [X] Pos 2.54mm Straight Thru-Hole - RED (Fans)"
 			(at 34.29 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "B2B-XH-A-R"
+			(at 34.29 130.81 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16425,26 +16573,32 @@
 		(dnp no)
 		(uuid "89433916-0b48-4d13-8d25-262ddac232a5")
 		(property "Reference" "PWRin1"
-			(at 17.018 77.216 90)
+			(at 17.272 76.454 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(italic yes)
 				)
 			)
 		)
 		(property "Value" "XT90PW-M"
-			(at 19.558 77.216 90)
+			(at 19.812 76.454 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
+					(thickness 0.2032)
+					(bold yes)
+					(italic yes)
 				)
 			)
 		)
-		(property "Footprint" "XT90PW-M:AMASS_XT90PW-M"
+		(property "Footprint" "Connector_AMASS:AMASS_XT90PW-M_1x02_P10.90mm_Horizontal"
 			(at 29.21 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -16649,8 +16803,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8c021b16-42e2-468a-9161-6f519f7c6968")
-		(property "Reference" "MD_PWM1"
-			(at 182.626 6.858 90)
+		(property "Reference" "MDDS30_PWM1"
+			(at 184.658 12.446 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16662,6 +16816,7 @@
 		)
 		(property "Value" "B4B-XH-A_LF__SN_"
 			(at 182.626 9.398 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16671,7 +16826,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "B4B-XH-A_LF__SN_:JST_B4B-XH-A_LF__SN_"
+		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
 			(at 190.5 17.78 0)
 			(hide yes)
 			(show_name no)
@@ -16694,7 +16849,7 @@
 				)
 			)
 		)
-		(property "Description" "Connector Header Through Hole 4 position 0.098 (2.50mm)"
+		(property "Description" "Conn Wire-to-Board Header 4 Pos 2.54mm Straight Thru-Hole (MDDS30 Ctrl)"
 			(at 190.5 17.78 0)
 			(hide yes)
 			(show_name no)
@@ -16802,7 +16957,7 @@
 				(justify bottom)
 			)
 		)
-		(property "MP" "B4B-XH-A (LF)(SN)"
+		(property "MPN" "B4B-XH-A (LF)(SN)"
 			(at 190.5 17.78 0)
 			(hide yes)
 			(show_name no)
@@ -16853,7 +17008,7 @@
 		(instances
 			(project "UGV"
 				(path "/07a8edf5-8ac1-4cc3-b758-10bf557c0053"
-					(reference "MD_PWM1")
+					(reference "MDDS30_PWM1")
 					(unit 1)
 				)
 			)
@@ -16969,7 +17124,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 112.0648 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -17552,7 +17707,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 194.818 137.16 90)
 			(hide yes)
 			(show_name no)
@@ -17702,6 +17857,7 @@
 		)
 		(property "Value" "B2B-XH-A"
 			(at 44.958 193.802 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17735,8 +17891,19 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Conn Wire-to-Board Header [X] Pos 2.54mm Straight Thru-Hole - WHITE (5V LMR Out)"
 			(at 52.07 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "B2B-XH-A"
+			(at 52.07 176.53 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17794,7 +17961,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "EasyEDA_Lib:USB-3.0-TH_U233-091N-4BLPC17-11"
+		(property "Footprint" "UGV_Custom:USB-3.0-TH_U233-091N-4BLPC17-11"
 			(at 124.46 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -17898,7 +18065,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Vishay_IHLP-2525"
+		(property "Footprint" "UGV_Custom:SRR1280-101M"
 			(at 96.52 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -18144,7 +18311,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LMR33630ADDA:VREG_LM5017MR_NOPB"
+		(property "Footprint" "UGV_Custom:LMR33630ADDAR"
 			(at 74.93 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -18460,7 +18627,7 @@
 		(dnp no)
 		(uuid "bb45d81f-e778-41d0-9d72-e96918408583")
 		(property "Reference" "Jetson1"
-			(at 119.38 3.81 90)
+			(at 119.634 6.858 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18472,6 +18639,7 @@
 		)
 		(property "Value" "XT30PW-M"
 			(at 119.38 6.35 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18481,7 +18649,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "XT30PW-M (1):AMASS_XT30PW-M"
+		(property "Footprint" "UGV_Custom:AMASS_XT30PW-M"
 			(at 124.46 16.51 0)
 			(hide yes)
 			(show_name no)
@@ -18612,7 +18780,7 @@
 				(justify bottom)
 			)
 		)
-		(property "MP" "XT30PW-M"
+		(property "MPN" "XT30PW-M"
 			(at 124.46 16.51 0)
 			(hide yes)
 			(show_name no)
@@ -19002,7 +19170,7 @@
 		(dnp no)
 		(uuid "c499c915-0b31-47ef-99f2-88cc4f2e4703")
 		(property "Reference" "Laser1"
-			(at 219.71 184.658 90)
+			(at 218.948 183.388 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19014,6 +19182,7 @@
 		)
 		(property "Value" "B2B-XH-A"
 			(at 219.71 187.198 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19047,8 +19216,19 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Conn Wire-to-Board Header [X] Pos 2.54mm Straight Thru-Hole - WHITE (5V LMR Out)"
 			(at 213.36 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "B2B-XH-A"
+			(at 213.36 168.91 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19084,8 +19264,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c591ec38-8921-46bd-9465-ba793638246d")
-		(property "Reference" "MD_DIR2"
-			(at 202.692 9.906 90)
+		(property "Reference" "MDDS30_DIR2"
+			(at 200.406 12.446 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19097,6 +19277,7 @@
 		)
 		(property "Value" "B4B-XH-A_LF__SN_"
 			(at 202.692 12.446 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19106,7 +19287,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "B4B-XH-A_LF__SN_:JST_B4B-XH-A_LF__SN_"
+		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
 			(at 205.74 17.78 0)
 			(hide yes)
 			(show_name no)
@@ -19129,7 +19310,7 @@
 				)
 			)
 		)
-		(property "Description" "Connector Header Through Hole 4 position 0.098 (2.50mm)"
+		(property "Description" "Conn Wire-to-Board Header 4 Pos 2.54mm Straight Thru-Hole (MDDS30 Ctrl)"
 			(at 205.74 17.78 0)
 			(hide yes)
 			(show_name no)
@@ -19288,7 +19469,7 @@
 		(instances
 			(project "UGV"
 				(path "/07a8edf5-8ac1-4cc3-b758-10bf557c0053"
-					(reference "MD_DIR2")
+					(reference "MDDS30_DIR2")
 					(unit 1)
 				)
 			)
@@ -19392,7 +19573,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "100k"
 			(at 200.152 145.542 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19402,7 +19583,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 196.85 139.192 90)
 			(hide yes)
 			(show_name no)
@@ -19543,7 +19724,7 @@
 		(dnp no)
 		(uuid "d0a8b0b5-d311-46bc-8765-d32027a4234c")
 		(property "Reference" "EByte1"
-			(at 17.272 37.846 90)
+			(at 19.558 37.592 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19554,6 +19735,7 @@
 		)
 		(property "Value" "XT30PW-M"
 			(at 19.812 37.846 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19562,7 +19744,7 @@
 				)
 			)
 		)
-		(property "Footprint" "XT30PW-M (1):AMASS_XT30PW-M"
+		(property "Footprint" "UGV_Custom:AMASS_XT30PW-M"
 			(at 29.21 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -19693,7 +19875,7 @@
 				(justify bottom)
 			)
 		)
-		(property "MP" "XT30PW-M"
+		(property "MPN" "XT30PW-M"
 			(at 29.21 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -19925,7 +20107,7 @@
 		(dnp no)
 		(uuid "d3335411-a584-4694-b48a-cbc9aef7c1fc")
 		(property "Reference" "Fan4"
-			(at 14.732 143.002 90)
+			(at 19.812 141.986 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19934,8 +20116,9 @@
 				)
 			)
 		)
-		(property "Value" "B2B-XH-A"
+		(property "Value" "B2B-XH-A-R"
 			(at 17.272 143.002 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19956,7 +20139,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "B2B-XH-A"
+		(property "Datasheet" "B2B-XH-A-R"
 			(at 34.29 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -19968,8 +20151,19 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Conn Wire-to-Board Header [X] Pos 2.54mm Straight Thru-Hole - RED (Fans)"
 			(at 34.29 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "B2B-XH-A-R"
+			(at 34.29 140.97 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20243,7 +20437,7 @@
 		(dnp no)
 		(uuid "d7462f66-45e0-4a58-9e50-ff76af056ca0")
 		(property "Reference" "Ubiquiti1"
-			(at 19.05 86.614 90)
+			(at 19.558 87.63 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20254,6 +20448,7 @@
 		)
 		(property "Value" "XT30PW-M"
 			(at 16.51 86.868 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20262,7 +20457,7 @@
 				)
 			)
 		)
-		(property "Footprint" "XT30PW-M (1):AMASS_XT30PW-M"
+		(property "Footprint" "UGV_Custom:AMASS_XT30PW-M"
 			(at 29.21 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -20393,7 +20588,7 @@
 				(justify bottom)
 			)
 		)
-		(property "MP" "XT30PW-M"
+		(property "MPN" "XT30PW-M"
 			(at 29.21 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -20469,7 +20664,7 @@
 		(dnp no)
 		(uuid "d7564f53-6300-4abd-9a76-1511e97244e4")
 		(property "Reference" "Fan2"
-			(at 15.24 121.92 90)
+			(at 19.812 121.92 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20478,8 +20673,9 @@
 				)
 			)
 		)
-		(property "Value" "B2B-XH-A"
+		(property "Value" "B2B-XH-A-R"
 			(at 17.78 121.92 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20500,7 +20696,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "B2B-XH-A"
+		(property "Datasheet" "B2B-XH-A-R"
 			(at 34.29 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -20512,8 +20708,19 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Conn Wire-to-Board Header [X] Pos 2.54mm Straight Thru-Hole - RED (Fans)"
 			(at 34.29 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "B2B-XH-A-R"
+			(at 34.29 120.65 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20562,6 +20769,7 @@
 		)
 		(property "Value" "B2B-XH-A"
 			(at 30.988 194.056 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20595,8 +20803,19 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Conn Wire-to-Board Header [X] Pos 2.54mm Straight Thru-Hole - WHITE (5V LMR Out)"
 			(at 38.1 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "B2B-XH-A"
+			(at 38.1 176.53 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20644,8 +20863,9 @@
 				(justify left)
 			)
 		)
-		(property "Value" "B2B-XH-A"
+		(property "Value" "B2B-XH-A-BK"
 			(at 267.97 128.2699 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20680,6 +20900,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 254 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "B2B-XH-A-BK"
 			(at 254 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -20848,7 +21079,7 @@
 				)
 			)
 		)
-		(property "Footprint" "teensy.pretty-master:Teensy41"
+		(property "Footprint" "UGV_Custom:Teensy41"
 			(at 168.91 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -21104,7 +21335,7 @@
 		(dnp no)
 		(uuid "e42159d7-ee38-4590-a2a0-07f3ad4c213a")
 		(property "Reference" "Fan1"
-			(at 17.272 112.014 90)
+			(at 20.066 111.506 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21113,8 +21344,9 @@
 				)
 			)
 		)
-		(property "Value" "B2B-XH-A"
+		(property "Value" "B2B-XH-A-R"
 			(at 19.812 111.76 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21135,7 +21367,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "B2B-XH-A"
+		(property "Datasheet" "B2B-XH-A-R"
 			(at 34.29 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -21147,8 +21379,19 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Conn Wire-to-Board Header [X] Pos 2.54mm Straight Thru-Hole - RED (Fans)"
 			(at 34.29 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "B2B-XH-A-R"
+			(at 34.29 110.49 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21185,7 +21428,7 @@
 		(dnp no)
 		(uuid "e609b948-7227-4fb6-92fc-d1cb0cd5c699")
 		(property "Reference" "BUCKin1"
-			(at 17.272 50.546 90)
+			(at 19.558 50.546 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21196,6 +21439,7 @@
 		)
 		(property "Value" "XT30PW-M"
 			(at 19.812 50.546 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21204,7 +21448,7 @@
 				)
 			)
 		)
-		(property "Footprint" "XT30PW-M (1):AMASS_XT30PW-M"
+		(property "Footprint" "UGV_Custom:AMASS_XT30PW-M"
 			(at 29.21 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -21335,7 +21579,7 @@
 				(justify bottom)
 			)
 		)
-		(property "MP" "XT30PW-M"
+		(property "MPN" "XT30PW-M"
 			(at 29.21 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -21411,7 +21655,7 @@
 		(dnp no)
 		(uuid "ed3d95c4-7faa-4527-b124-44f2a55b0014")
 		(property "Reference" "LED1"
-			(at 205.74 184.658 90)
+			(at 203.962 183.642 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21423,6 +21667,7 @@
 		)
 		(property "Value" "B2B-XH-A"
 			(at 205.74 187.198 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21456,8 +21701,19 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Conn Wire-to-Board Header [X] Pos 2.54mm Straight Thru-Hole - WHITE (5V LMR Out)"
 			(at 199.39 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "B2B-XH-A"
+			(at 199.39 168.91 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21505,8 +21761,9 @@
 				(justify left)
 			)
 		)
-		(property "Value" "B2B-XH-A"
+		(property "Value" "B2B-XH-A-BK"
 			(at 267.97 148.5899 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21541,6 +21798,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 254 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "B2B-XH-A-BK"
 			(at 254 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -21600,7 +21868,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 110.1852 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -21836,7 +22104,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 246.0752 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -21895,8 +22163,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f6f23448-5ab8-40ff-bc34-90db5717f5d0")
-		(property "Reference" "MD_DIR1"
-			(at 163.322 9.652 90)
+		(property "Reference" "MDDS30_DIR1"
+			(at 169.926 12.446 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21908,6 +22176,7 @@
 		)
 		(property "Value" "B4B-XH-A_LF__SN_"
 			(at 163.322 12.192 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21917,7 +22186,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "B4B-XH-A_LF__SN_:JST_B4B-XH-A_LF__SN_"
+		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
 			(at 175.26 17.78 0)
 			(hide yes)
 			(show_name no)
@@ -21940,7 +22209,7 @@
 				)
 			)
 		)
-		(property "Description" "Connector Header Through Hole 4 position 0.098 (2.50mm)"
+		(property "Description" "Conn Wire-to-Board Header 4 Pos 2.54mm Straight Thru-Hole (MDDS30 Ctrl)"
 			(at 175.26 17.78 0)
 			(hide yes)
 			(show_name no)
@@ -22048,7 +22317,7 @@
 				(justify bottom)
 			)
 		)
-		(property "MP" "B4B-XH-A (LF)(SN)"
+		(property "MPN" "B4B-XH-A (LF)(SN)"
 			(at 175.26 17.78 0)
 			(hide yes)
 			(show_name no)
@@ -22099,7 +22368,7 @@
 		(instances
 			(project "UGV"
 				(path "/07a8edf5-8ac1-4cc3-b758-10bf557c0053"
-					(reference "MD_DIR1")
+					(reference "MDDS30_DIR1")
 					(unit 1)
 				)
 			)
@@ -22138,7 +22407,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 108.9152 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -22298,7 +22567,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 115.2652 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -22379,7 +22648,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 58.1152 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -22452,6 +22721,7 @@
 		)
 		(property "Value" "B2B-XH-A"
 			(at 191.77 187.198 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22485,8 +22755,19 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Conn Wire-to-Board Header [X] Pos 2.54mm Straight Thru-Hole - WHITE (5V LMR Out)"
 			(at 185.42 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "B2B-XH-A"
+			(at 185.42 168.91 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22769,6 +23050,7 @@
 		)
 		(property "Value" "B2B-XH-A"
 			(at 87.884 193.548 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22802,8 +23084,19 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Conn Wire-to-Board Header [X] Pos 2.54mm Straight Thru-Hole - WHITE (5V LMR Out)"
 			(at 95.25 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "B2B-XH-A"
+			(at 95.25 176.53 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
