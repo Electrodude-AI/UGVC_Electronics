@@ -1,18 +1,64 @@
 #include <Arduino.h>
+#include "config.h"
+#include "receiver.h"
+#include "encoder_manager.h"
+#include "pid.h"
+#include "motor_driver.h"
 
-// put function declarations here:
-int myFunction(int, int);
+unsigned long lastLoop = 0;
 
-void setup() {
-  // put your setup code here, to run once:
-  int result = myFunction(2, 3);
+void setup()
+{
+    Serial.begin(115200);
+
+    receiverInit();
+    encoderInit();
+    motorInit();
 }
 
-void loop() {
-  // put your main code here, to run repeatedly:
-}
+void loop()
+{
+    if(millis() - lastLoop < loopTime)
+        return;
 
-// put function definitions here:
-int myFunction(int x, int y) {
-  return x + y;
+    lastLoop = millis();
+
+    if(!receiverUpdate())
+    {
+        stopAllMotors();
+        resetPID();
+        return;
+    }
+
+    MotorTargets t = getTargets();
+
+    float flPWM =
+        calculatePID(
+            t.fl,
+            getFLSpeed(),
+            0);
+
+    float rlPWM =
+        calculatePID(
+            t.rl,
+            getRLSpeed(),
+            1);
+
+    float frPWM =
+        calculatePID(
+            t.fr,
+            getFRSpeed(),
+            2);
+
+    float rrPWM =
+        calculatePID(
+            t.rr,
+            getRRSpeed(),
+            3);
+
+    driveFL(flPWM);
+    driveRL(rlPWM);
+
+    driveFR(frPWM);
+    driveRR(rrPWM);
 }
