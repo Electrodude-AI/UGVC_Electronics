@@ -3,60 +3,59 @@
 #include "encoder_manager.h"
 #include "config.h"
 
-Encoder encFL(FL_ENC_A,FL_ENC_B);
-Encoder encRL(RL_ENC_A,RL_ENC_B);
-Encoder encFR(FR_ENC_A,FR_ENC_B);
-Encoder encRR(RR_ENC_A,RR_ENC_B);
+Encoder encFL(FL_ENC_A, FL_ENC_B);
+Encoder encRL(RL_ENC_A, RL_ENC_B);
+Encoder encFR(FR_ENC_A, FR_ENC_B);
+Encoder encRR(RR_ENC_A, RR_ENC_B);
 
 long prevFL = 0;
 long prevRL = 0;
 long prevFR = 0;
 long prevRR = 0;
 
+unsigned long prevTimeFL = 0;
+unsigned long prevTimeRL = 0;
+unsigned long prevTimeFR = 0;
+unsigned long prevTimeRR = 0;
+
 void encoderInit()
 {
+    prevFL = encFL.read();
+    prevRL = encRL.read();
+    prevFR = encFR.read();
+    prevRR = encRR.read();
+
+    unsigned long now_us = micros();
+    prevTimeFL = now_us;
+    prevTimeRL = now_us;
+    prevTimeFR = now_us;
+    prevTimeRR = now_us;
 }
 
-float getFLSpeed()
+static float computeSpeed(long& prevCount, unsigned long& prevTime, Encoder& enc)
 {
-    long now = encFL.read();
+    long now = enc.read();
+    long delta = now - prevCount;
+    prevCount = now;
 
-    float speed = now - prevFL;
+    unsigned long now_us = micros();
+    unsigned long dt_us = now_us - prevTime;
+    prevTime = now_us;
 
-    prevFL = now;
+    if(dt_us < 1)
+        dt_us = 1;
 
-    return speed;
+    float dt_sec = dt_us / 1000000.0f;
+
+    return delta / dt_sec;
 }
 
-float getRLSpeed()
+WheelSpeeds getWheelSpeeds()
 {
-    long now = encRL.read();
-
-    float speed = now - prevRL;
-
-    prevRL = now;
-
-    return speed;
-}
-
-float getFRSpeed()
-{
-    long now = encFR.read();
-
-    float speed = now - prevFR;
-
-    prevFR = now;
-
-    return speed;
-}
-
-float getRRSpeed()
-{
-    long now = encRR.read();
-
-    float speed = now - prevRR;
-
-    prevRR = now;
-
-    return speed;
+    WheelSpeeds ws;
+    ws.fl = computeSpeed(prevFL, prevTimeFL, encFL);
+    ws.rl = computeSpeed(prevRL, prevTimeRL, encRL);
+    ws.fr = computeSpeed(prevFR, prevTimeFR, encFR);
+    ws.rr = computeSpeed(prevRR, prevTimeRR, encRR);
+    return ws;
 }

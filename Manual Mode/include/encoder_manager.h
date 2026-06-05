@@ -1,11 +1,16 @@
 #ifndef ENCODER_MANAGER_H
 #define ENCODER_MANAGER_H
 
+struct WheelSpeeds
+{
+    float fl;
+    float rl;
+    float fr;
+    float rr;
+};
+
 void encoderInit();
 
-float getFLSpeed();
-float getRLSpeed();
-float getFRSpeed();
-float getRRSpeed();
+WheelSpeeds getWheelSpeeds();
 
 #endif

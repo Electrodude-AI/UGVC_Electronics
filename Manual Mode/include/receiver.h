@@ -13,6 +13,6 @@ void receiverInit();
 
 bool receiverUpdate();
 
-MotorTargets getTargets();
+MotorTargets getReceiverTargets();
 
 #endif
