@@ -110,11 +110,11 @@ const float SLIP_PWM_CAP            = 0.60f;
 // #define ENABLE_TELEMETRY
 
 // SAFE_MODE — open-loop bring-up (10% max PWM, PID bypassed)
-// #define SAFE_MODE
+#define SAFE_MODE
 
 #ifdef SAFE_MODE
   const int   SAFE_MAX_TARGET = 40;
-  const float SAFE_PWM_LIMIT  = 25.5f;
+  const float SAFE_PWM_LIMIT  = 127.5f;
 #endif
 
 // MOTOR_TEST_MODE — sequential per-wheel test (30% max PWM, 3s per wheel)

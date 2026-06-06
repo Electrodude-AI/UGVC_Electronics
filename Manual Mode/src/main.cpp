@@ -60,7 +60,7 @@ void loop()
 
     if(!receiverUpdate())
     {
-        motorStopAll();
+        stopAllMotors();
         resetPID();
         safetyReset();
         slipReset();
@@ -75,7 +75,7 @@ void loop()
 
     if(safetyCriticalFault())
     {
-        motorStopAll();
+        stopAllMotors();
         while(1);
     }
 
@@ -85,6 +85,22 @@ void loop()
     slipApplyResponse(cmds);
 
     motorApply(cmds);
+
+#ifdef SAFE_MODE
+    static unsigned long lastPrint = 0;
+    if (now - lastPrint > 100) // Print 10 times a second
+    {
+        Serial.print("Receiver -> L: ");
+        Serial.print(targets.fl);
+        Serial.print("  R: ");
+        Serial.print(targets.fr);
+        Serial.print("  | PWM -> L: ");
+        Serial.print(cmds.fl);
+        Serial.print("  R: ");
+        Serial.println(cmds.fr);
+        lastPrint = now;
+    }
+#endif
 
     watchdogFeed();
 
